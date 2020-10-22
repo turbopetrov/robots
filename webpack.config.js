@@ -1,18 +1,20 @@
-// let imagemin = require('imagemin-webpack-plugin');
-// let copyWebpackPlugin = require('copy-webpack-plugin');
+let imagemin = require('imagemin-webpack-plugin');
+let CopyWebpackPlugin = require('copy-webpack-plugin');
 let path = require("path");
 let MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 let conf = {
+    context: path.resolve(__dirname, "src"),
     entry: {
       app:[ 
-    './src/js/index.js',
-    './src/css/style.css',
+    './js/index.js',
+    './css/style.css',
       ]
     },
     output:{
-      path:  path.resolve(__dirname, './dist'),
-      filename: 'scripts.js',
-      publicPath: 'dist/',
+      path:  path.resolve(__dirname, 'dist'),
+      filename: 'js/scripts.js',
+      publicPath: '../',
     },
     devServer: {
       contentBase: "./html", 
@@ -30,21 +32,36 @@ let conf = {
             'css-loader'
             ],
         },
-        // {
-        //   test: /\.(png|gif|jpe?g)$/,
-        //   loaders:[
-        //     {
-        //       loader: 'file-loader',
-        //       options: {
-        //         name: '[path][name].[ext]'
-        //       }
-        //     },
-        //     'image-loader',
-        //   ]
-        // }
-      ]
+        {
+          test: /\.(png|gif|jpe?g)$/,
+          loaders:[
+            {
+              loader: 'file-loader',
+              options: {
+                name: '[path][name].[ext]'
+              }
+            },
+            {loader: 'img-loader'},
+          ],
+        },
+      ],
     },
-    plugins:[new MiniCssExtractPlugin({filename: 'styles.css'})],
+    plugins:[
+      new MiniCssExtractPlugin(
+          {
+            filename: 'css/styles.css'
+          }
+        ),
+      new CleanWebpackPlugin(),
+      new CopyWebpackPlugin (
+        {
+          patterns: [
+            {from: './img', to: 'img'},
+          ]
+        }
+      ) 
+         
+            ],
    
 }
 module.exports = conf;
