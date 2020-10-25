@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__logo{
+    margin-top: 48px;
+}
+.header__btn{
+    margin-top: 48px;
+    width: 236px;
+    height: 48px;
+}

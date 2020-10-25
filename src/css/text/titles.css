@@ -1,0 +1,24 @@
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.title_xl{
+    font-size: 56px;
+    line-height: 129%;
+}
+.title_m{
+    font-size: 32px;
+    line-height: 125%;
+}
+.title_s {
+    font-size: 20px;
+    line-height: 32px;
+}
+.title_xs{
+    font-size: 14px;
+    line-height: 20px;
+}

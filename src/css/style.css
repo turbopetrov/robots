@@ -1,4 +1,13 @@
-body{
-    margin: 0;
-    padding: 0;
-}
+@import "./buttons/btn.css";
+@import "./buttons/btn_type3/btn_type3_normal.css";
+@import "./buttons/btn_type3/btn_type3_hover.css";
+@import "./header/logo.css";
+@import "./text/titles.css";
+@import "./text/subTitles.css";
+@import "./elementsPosition.css";
+@import "./header/header.css";
+@import "./titleSection/titleSection.css";
+@import "./walletSection/walletSection.css";
+@import "./walletSection/walletSection__actionBtn.css";
+@import "./walletSection/coins.css";
+@import "./walletSection/walletSection__actionBlock.css";

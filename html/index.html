@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">  
     <title>Biorobots</title>
-    <link rel="stylesheet" href="../dist/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../dist/css/styles.css">
 </head>
-<body>
-   
+<body class="page" style="background: radial-gradient(82.33% 70.44% at 50% 0%, #26394D 0%, #212529 100%) no-repeat;">
+   <div class="container container_wide">
+       <header class="header">
+           <div class="logo header__logo">
+               <img src="../src/img/logo.png" alt="Logo" class="logo__img">
+           </div>
+           <button class="btn btn_type3_normal header__btn">Произвести биоробота</button>
+       </header>
+       <div class="container container_slim">
+           <!-------------- titleSection START------------->
+
+             <section class="titleSection">
+                <div class="titleSection__textBlock">
+                    <h1 class="titleSection__title title title_xl">
+                            Фабрика по производству биороботов
+                    </h1>
+                    <p class="titleSection__subTitle subTitle subTitle_xl">
+                            класса «монитор-кресло»
+                    </p>
+                </div>
+                <div class="titleSection__imgBlock">
+                    <img src="../src/img/robots_pair.png" alt="Robots" class="titleSection__img">
+                </div>
+            </section>
+        <!-------------- titleSection END------------->
+        <!-------------- walletSection START ------------->
+            <section class="walletSection">
+                <h2 class="walletSection__title title title_m">
+                    Кошелёк криптовалют
+                </h2>
+                <div class="walletSection__coinsBlock">
+                    <div class="walletSection__coins">
+                        <img id="coin_1" src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_2"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_3"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_4"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_5"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_6" src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_7"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_8"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_9"src="../src/img/coin.png" alt="Монетка">
+                        <img id="coin_10"src="../src/img/coin.png" alt="Монетка">
+                    </div>
+                    <p class="walletSection__subTitle subTitle subTitle_m">
+                        <span class="walletSection__numberOfCoins">10</span> 
+                        biorobo монет
+                    </p>
+                </div>
+                <div class="walletSection__actionBlock">
+                    <button class="walletSection__actionBtn">Нацыганить</button>
+                    <label class="walletSection__label">
+                        <input type="checkbox" class="walletSection__checkbox"> 
+                        <span class="walletSection_fakeCheckbox"></span>
+                        <span class="walletSection__checkbox-text">Цыганить по 5 монет</span>
+                    </label>
+                </div>
+            </section>
+        <!-------------- walletSection END ------------->
+        </div>
+   </div>
     <script src="../dist/js/scripts.js"></script>
 </body>
 </html>

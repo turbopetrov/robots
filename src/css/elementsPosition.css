@@ -1,0 +1,25 @@
+.page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+    padding-bottom: 40px;
+}
+.container{
+    display: flex;    
+    flex-direction: column;
+}
+.container_wide{
+    width: 1016px;
+    height: 100%;
+}
+.container_slim{
+    width: 754px;
+    height: 100%;
+    align-self: center;
+    justify-content: space-between;
+}

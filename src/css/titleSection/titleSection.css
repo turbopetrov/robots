@@ -1,0 +1,23 @@
+.titleSection{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.titleSection__textBlock{
+    display: flex;
+    flex-direction: column;
+}
+.titleSection__imgBlock{
+    position: relative;
+}
+.titleSection__img{
+    position: absolute;
+    top: 0;
+    right:-100px;
+}
+.titleSection__title{
+    max-width: 470px;
+}
+.titleSection__subTitle{
+    margin-top: 23px;
+}

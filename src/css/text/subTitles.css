@@ -1,0 +1,20 @@
+.subTitle{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    color: #A3B8CC;
+    margin: 0;
+    padding: 0;
+}
+.subTitle_xl{
+    font-size: 24px;
+    line-height: 133%;
+}
+.subTitle_m{
+    font-size: 24px;
+    line-height: 100%;
+}
+.subTitle_s{
+    font-size: 16px;
+    line-height: 150%;
+}
