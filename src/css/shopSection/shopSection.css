@@ -1,0 +1,10 @@
+.shopSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.shopSection__cardBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
