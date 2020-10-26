@@ -3,8 +3,11 @@
 @import "./buttons/btn_type3/btn_type3_hover.css";
 @import "./buttons/btn_type1/btn_type1_normal.css";
 @import "./buttons/btn_type1/btn_type1_disable.css";
-@import "./buttons/btn_type1/btn_type1_active.css";
 @import "./buttons/btn_type1/btn_type1_hover.css";
+@import "./buttons/btn_type2/btn_type2_normal.css";
+@import "./buttons/btn_type2/btn_type2_disable.css";
+@import "./buttons/btn_type2/btn_type2_active.css";
+@import "./buttons/btn_type2/btn_type2_hover.css";
 @import "./header/logo.css";
 @import "./text/titles.css";
 @import "./text/subTitles.css";
@@ -17,3 +20,8 @@
 @import "./walletSection/walletSection__actionBlock.css";
 @import "./shopSection/shopSection.css";
 @import "./shopSection/card.css";
+@import "./shopSection/shopSection__card.css";
+@import "./storageSection/storageSection.css";
+@import "./storageSection/storageSection__card.css";
+@import "./factorySection/factorySection.css";
+@import "./factorySection/radio.css";

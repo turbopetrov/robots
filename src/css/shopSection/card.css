@@ -4,25 +4,3 @@
     align-items: center;
     width: 236px;
 }
-.card__img{    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 236px;
-    height: 128px;
-    margin-top: 60px;
-}
-.cardImage{
-    width: 100%;
-    height: auto;
-    
-}
-.card__title{
-    margin-top: 25px;
-}
-.card__subTitle{
-    margin-top: 5px;
-}
-.card__btn{
-    margin-top: 36px;
-}

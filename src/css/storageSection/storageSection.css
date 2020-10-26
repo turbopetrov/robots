@@ -1,0 +1,11 @@
+.storageSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.storageSection__cardBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}

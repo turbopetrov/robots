@@ -1,0 +1,22 @@
+.shopSection__card__imgContainer{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 128px;
+    margin-top: 60px;
+}
+.shopSection__cardImage{
+    width: 100%;
+    height: auto;
+    
+}
+.shopSection__card__title{
+    margin-top: 25px;
+}
+.shopSection__card__subTitle{
+    margin-top: 5px;
+}
+.shopSection__card__btn{
+    margin-top: 36px;
+}

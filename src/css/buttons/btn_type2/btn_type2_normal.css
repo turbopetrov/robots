@@ -1,0 +1,7 @@
+.btn_type2_normal{
+    border-color: linear-gradient(
+        180deg, #22B3E3 100%, #7CDAF9 100%, #22B3E3 100%);
+    color: #7CDAF9;
+    background:transparent;
+    transition: all .2s;
+}

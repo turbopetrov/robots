@@ -71,49 +71,49 @@
                 </h2>
                 <div class="shopSection__cardBlock">
                     <!------- Card START ------->
-                    <div class="shopSection__card card card_mech">
-                        <div class="card__img">
-                            <img src="../src/img/robotHand.png" class="cardImage" alt="">
+                    <div class="shopSection__card card card_bioMech">
+                        <div class="cshopSection__card__imgContainer">
+                            <img src="../src/img/robotHand.png" class="shopSection__cardImage" alt="">
                         </div>
-                        <h3 class="card__title title title_s">
+                        <h3 class=".shopSection__card__title title title_s">
                             Биомеханизм
                         </h3>
-                        <p class="card__subTitle subTitle subTitle_s">
+                        <p class=".shopSection__card__subTitle subTitle subTitle_s">
                             Стоимость <span class="card__cost">7</span> монет
                         </p>
-                        <button class="card__btn btn btn_type1_normal">
+                        <button class="shopSection__card__btn btn btn_type1_normal">
                             Установить
                         </button>
                     </div>
                     <!------- Card END ------->
                     <!------- Card START ------->
                     <div class="shopSection__card card card_mech">
-                        <div class="card__img">
-                            <img src="../src/img/processor.png" class="cardImage" alt="">
+                        <div class="shopSection__card__imgContainer">
+                            <img src="../src/img/processor.png" class="shopSection__cardImage" alt="">
                         </div>
-                        <h3 class="card__title title title_s">
+                        <h3 class="shopSection__card__title title title_s">
                             Процессор
                         </h3>
-                        <p class="card__subTitle subTitle subTitle_s">
+                        <p class="cshopSection__card__subTitle subTitle subTitle_s">
                             Стоимость <span class="card__cost">5</span> монет
                         </p>
-                        <button class="card__btn btn btn_type1_normal">
+                        <button class="shopSection__card__btn btn btn_type1_normal">
                             Установить
                         </button>
                     </div>
                     <!------- Card END ------->
                     <!------- Card START ------->
-                    <div class="shopSection__card card card_mech">
-                        <div class="card__img">
-                            <img src="../src/img/face.png" class="cardImage" alt="">
+                    <div class="shopSection__card card">
+                        <div class="shopSection__card__imgContainer">
+                            <img src="../src/img/face.png" class="shopSection__cardImage" alt="">
                         </div>
-                        <h3 class="card__title title title_s">
+                        <h3 class="shopSection__card__title title title_s">
                             Душа
                         </h3>
-                        <p class="card__subTitle subTitle subTitle_s">
+                        <p class="shopSection__card__subTitle subTitle subTitle_s">
                             Стоимость <span class="card__cost">25</span> монет
                         </p>
-                        <button class="card__btn btn btn_type1_disable ">
+                        <button class="shopSection__card__btn btn btn_type1_disable ">
                             Установить
                         </button>
                     </div>
@@ -121,6 +121,119 @@
                 </div>
             </section>
         <!-------------- shopSection END ------------->
+        <!-------------- storageSection START ------------->
+        <section class="storageSection">
+            <h2 class="storageSection__title title title_m">
+                Склад
+            </h2>
+            <div class="storageSection__cardBlock">
+                 <!------- Card START ------->
+                 <div class="storageSection__card card">                   
+                    <h3 class="storageSection__card__title title title_s">
+                        Биомеханизм
+                    </h3>
+                    <p class="storageSection__card__subTitle subTitle subTitle_s">
+                        Стоимость <span class="card__cost">25</span> монет
+                    </p>
+                    <p class="storageSection__card__subTitle_values title title_s">
+                        <span class="card__value">2</span> шт
+                    </p>
+                    
+                    <button class="storageSection__card__btn btn btn_type2_normal">
+                        Продать
+                    </button>
+                </div>
+                <!------- Card END ------->
+                 <!------- Card START ------->
+                 <div class="storageSection__card card">                   
+                    <h3 class="storageSection__card__title title title_s">
+                        Процессор
+                    </h3>
+                    <p class="storageSection__card__subTitle subTitle subTitle_s">
+                        Стоимость <span class="card__cost">25</span> монет
+                    </p>
+                    <p class="storageSection__card__subTitle_values title title_s">
+                        <span class="card__value">3</span> шт
+                    </p>
+                    
+                    <button class="storageSection__card__btn btn btn_type2_normal">
+                        Продать
+                    </button>
+                </div>
+                <!------- Card END ------->
+                 <!------- Card START ------->
+                 <div class="storageSection__card card">                   
+                    <h3 class="storageSection__card__title title title_s">
+                        Душа
+                    </h3>
+                    <p class="storageSection__card__subTitle subTitle subTitle_s">
+                        Стоимость <span class="card__cost">25</span> монет
+                    </p>
+                    <p class="storageSection__card__subTitle_values title title_s">
+                        <span class="card__value">0</span> шт
+                    </p>
+                    
+                    <button class="storageSection__card__btn btn btn_type2_normal">
+                        Продать
+                    </button>
+                </div>
+                <!------- Card END ------->
+            </div>
+        </section>
+        <!-------------- storageSection END ------------->
+        <!-------------- factorySection START ------------->
+        <section class="factorySection">
+            <h2 class="factorySection__title title title_m">
+                Производство
+            </h2>
+            <div class="factorySection__radioBlock">
+                <h3 class="title title_s factorySection__radioBlock_title">
+                    Тип стабилизатора
+                </h3>
+                <div class="radio factorySection__radioBlock_type">
+                    <label class="radio__item">
+                        <input type="radio" name="type" value="FrontEnd" class="radio__input radio__input_type_front">
+                         <span class="radio__fakeRadio"></span>
+                        <span class="radio__label subTitle subTitle_s">
+                            FrontEnd
+                        </span>
+                                               
+                    </label>
+
+                    <label class="radio__item">
+                        <input type="radio" name="type" value="BackEnd" class="radio__input radio__input_type_back">
+                        <span class="radio__fakeRadio"></span>    
+                        <span class="radio__label subTitle subTitle_s">
+                            BackEnd
+                        </span>
+                                            
+                    </label>
+                </div>
+                <h3 class="title title_s factorySection__radioBlock_title">
+                    Стабилизатор
+                </h3>
+                <div class="radio factorySection__radioBlock_gender">
+                    <label class="radio__item">
+                        <input type="radio" name="gender" value="male" class="radio__input radio__input_gender_male">
+                         <span class="radio__fakeRadio"></span>
+                        <span class="radio__label subTitle subTitle_s">
+                            Male
+                        </span>
+                                               
+                    </label>
+
+                    <label class="radio__item">
+                        <input type="radio" name="gender" value="female" class="radio__input radio__input_gender_female">
+                        <span class="radio__fakeRadio"></span>
+                        <span class="radio__label subTitle subTitle_s">
+                            Female
+                        </span>
+                                                
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!-------------- factorySection END ------------->
         </div>
    </div>
     <script src="../dist/js/scripts.js"></script>
