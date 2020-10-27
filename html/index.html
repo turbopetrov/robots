@@ -173,7 +173,7 @@
                         <span class="card__value">0</span> шт
                     </p>
                     
-                    <button class="storageSection__card__btn btn btn_type2_normal">
+                    <button class="storageSection__card__btn btn btn_type2_disable">
                         Продать
                     </button>
                 </div>
@@ -183,55 +183,87 @@
         <!-------------- storageSection END ------------->
         <!-------------- factorySection START ------------->
         <section class="factorySection">
-            <h2 class="factorySection__title title title_m">
-                Производство
-            </h2>
-            <div class="factorySection__radioBlock">
-                <h3 class="title title_s factorySection__radioBlock_title">
-                    Тип стабилизатора
-                </h3>
-                <div class="radio factorySection__radioBlock_type">
-                    <label class="radio__item">
-                        <input type="radio" name="type" value="FrontEnd" class="radio__input radio__input_type_front">
-                         <span class="radio__fakeRadio"></span>
-                        <span class="radio__label subTitle subTitle_s">
-                            FrontEnd
-                        </span>
-                                               
-                    </label>
-
-                    <label class="radio__item">
-                        <input type="radio" name="type" value="BackEnd" class="radio__input radio__input_type_back">
-                        <span class="radio__fakeRadio"></span>    
-                        <span class="radio__label subTitle subTitle_s">
-                            BackEnd
-                        </span>
-                                            
-                    </label>
+            <div class="wrap">
+                <div class="section__title item">
+                    <h2 class="factorySection__title title title_m">
+                        Производство
+                    </h2>
                 </div>
-                <h3 class="title title_s factorySection__radioBlock_title">
-                    Стабилизатор
-                </h3>
-                <div class="radio factorySection__radioBlock_gender">
-                    <label class="radio__item">
-                        <input type="radio" name="gender" value="male" class="radio__input radio__input_gender_male">
-                         <span class="radio__fakeRadio"></span>
-                        <span class="radio__label subTitle subTitle_s">
-                            Male
-                        </span>
-                                               
-                    </label>
-
-                    <label class="radio__item">
-                        <input type="radio" name="gender" value="female" class="radio__input radio__input_gender_female">
-                        <span class="radio__fakeRadio"></span>
-                        <span class="radio__label subTitle subTitle_s">
-                            Female
-                        </span>
-                                                
-                    </label>
+                <div class="section__radio item">
+                    <div class="factorySection__radioBlock">
+                        <h3 class="title title_s factorySection__radioBlock_title">
+                            Тип биоробота:
+                        </h3>
+                        <div class="radio factorySection__radioBlock_type">
+                            <label class="radio__item">
+                                <input type="radio" name="type" value="FrontEnd" class="radio__input radio__input_type_front">
+                                 <span class="radio__fakeRadio"></span>
+                                <span class="radio__label subTitle subTitle_xs">
+                                    FrontEnd
+                                </span>                                                       
+                            </label>        
+                            <label class="radio__item">
+                                <input type="radio" name="type" value="Design" class="radio__input radio__input_type_design">
+                                <span class="radio__fakeRadio"></span>    
+                                <span class="radio__label subTitle subTitle_xs">
+                                    Design
+                                </span>                                                    
+                            </label>
+                        </div>
+                        <h3 class="title title_s factorySection__radioBlock_title">
+                            Стабилизатор:
+                        </h3>
+                        <div class="radio factorySection__radioBlock_gender">
+                            <label class="radio__item">
+                                <input type="radio" name="gender" value="male" class="radio__input radio__input_gender_male">
+                                 <span class="radio__fakeRadio"></span>
+                                <span class="radio__label subTitle subTitle_xs">
+                                    Male
+                                </span>
+                                                       
+                            </label>
+        
+                            <label class="radio__item">
+                                <input type="radio" name="gender" value="female" class="radio__input radio__input_gender_female">
+                                <span class="radio__fakeRadio"></span>
+                                <span class="radio__label subTitle subTitle_xs">
+                                    Female
+                                </span>
+                                                        
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                    <div class="section__parts item"><div class="factorySection__partsBlock">
+                        <button class="partsBlock__item"><img src="../src/img/processor-s.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/processor-s.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/processor-inactive.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/processor-unavilable.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/robotHand_s.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/robotHand_inactiv.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/robotHand-unavilable.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/robotHand-unavilable.png" alt="" class="partsBlock__img"></button >
+                        <button  class="partsBlock__item"><img src="../src/img/face_inactive.png" alt="" class="partsBlock__img"></button >
+                    </div>
+                </div>
+                <div class="section__robot item">
+                    <img src="../src/img/robot_inactive.png" alt="Your biorobot" class="factorySection__robotImg">
+                </div>
+                <div class="section__btn item">
+                    <div class="factorySection__btn_wrap">
+                        <button class="btn btn_type3_disable factorySection__btn">
+                            Произвести за 10 монет
+                        </button>
+                    </div>
+                </div>
+                <div class="section__message item">
+                    <p class="subTitle subTitle_xs factorySection__mesage">
+                        Для производства биоробота не хватает 2 биомеханизма, 3 процессора и души
+                    </p>
                 </div>
             </div>
+           
+            
         </section>
         <!-------------- factorySection END ------------->
         </div>

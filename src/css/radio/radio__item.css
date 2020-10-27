@@ -1,0 +1,6 @@
+.radio__item{
+    display: flex;
+}
+.radio__item + .radio__item {
+    margin-left:35px;
+}

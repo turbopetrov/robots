@@ -1,3 +1,32 @@
 .factorySection{
     margin-top: 100px;
 }
+
+.wrap {	
+	max-width: 100%;	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas: 
+		"title title title"
+		"radio stuf robot"
+		"btn message robot"
+		;
+}
+.section__title{	
+	grid-area: title;
+ }
+.section__radio{	
+	grid-area: radio;
+}
+.section__stuf{	
+	grid-area: stuf;
+}
+.section__robot{	
+	grid-area: robot;
+}
+.section__btn{	
+	grid-area: btn;
+}
+.section__message{	
+	grid-area: message;
+}

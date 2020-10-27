@@ -1,0 +1,10 @@
+.partsBlock__item{
+    display: flex;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
